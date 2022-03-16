@@ -14,8 +14,10 @@ Set your game to windowed mode - Borderless full screen
 The program needs to know the x,y coordinates of the fishing gauge. The data.txt file included works well on mine (1920x1080) but you may need to calibrate. If you do need to, heres how:
 
 	Method 1:
-	While fishing, use some sort of program that can tell you what x,y coordinate your mouse is at.
-	Then edit data.txt with your discovered values.
+	While fishing, click on the pygame window and click m. this will bring up another window 
+    that gives you mouse info. Take note of the x and y coordinate of the top left and bottom
+    right corner of your fishing gauge. Then do some math and enter the values into data.txt
+    as described above.
 
 	Method 2:
 	Move the pygame window over the fishing guage, cover it up, but in a way where you can still
